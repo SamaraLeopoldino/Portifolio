@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+   <!--STYLE CSS-->
+    <link rel="stylesheet" href="style.css">
+   <!--REMIX ICON-->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+   <!--GOOGLE FONTS-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <a href="#" class="logo">Desenvolvedora <span>S.S.</span></a>
+        <ul class="navlist">
+            <li><a href="#" class="active">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Portifólio</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+
+        <div class="top-btn">
+            <a href="#" class="h-btn">Contrate-me</a>
+        </div>
+    </header>
+    
+    <!-- hero-->
+     <section class="hero">
+        <div class="main-content">
+            <h4>Hi, There</h4>
+            <h1>I'm <span class="input"></span></h1>
+            <p>Um texto super aleatorio</p>
+            <div class="social">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="#"><i class="ri-youtube-fill"></i></a>
+            </div>
+
+            <div class="main-btnn">
+                <a href="#"class="btn">Hire me</a>
+                <a href="#"class="btn btn2">Download CV</a>
+            </div>
+        </div>
+
+        <div class="bottom"> 
+            <p> Copyrught &copy; Mame my Samara Leopoldino </p>
+        </div>
+     </section>
+
+     <script src="https://unpkg.com/scrollreveal"></script>
+    <!--SCRIPT JS-->
+    <script src="/script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings:["Samara Leopoldino", "Desenvolvedora Web" , "UI UX Desingner"],
+            typedSpeed: 70,
+            backSpeed: 65,
+            loop:true
+
+        })
+    </script>
+</body>
+</html>
